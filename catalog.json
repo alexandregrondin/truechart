@@ -25916,5 +25916,41 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/volumesnapshots.webp"
         }
+    },
+    "release": {
+        "jdownloader2": {
+            "app_readme": "<p>JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/jdownloader2\">https://truecharts.org/charts/stable/jdownloader2</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "downloads"
+            ],
+            "description": "JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/jdownloader2",
+            "location": "/home/runner/_work/catalog/catalog/release/jdownloader2",
+            "latest_version": "17.0.8",
+            "latest_app_version": "24.01.1",
+            "latest_human_version": "24.01.1_17.0.8",
+            "last_update": "2024-05-29 12:35:14",
+            "name": "jdownloader2",
+            "recommended": false,
+            "title": "Jdownloader2",
+            "maintainers": [
+                {
+                    "name": "TrueCharts",
+                    "email": "info@truecharts.org",
+                    "url": "https://truecharts.org"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/jlesage/docker-jdownloader-2",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/jdownloader2",
+                "https://hub.docker.com/r/jlesage/jdownloader-2",
+                "https://jdownloader.org/"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/jdownloader2.webp"
+        }
     }
 }
