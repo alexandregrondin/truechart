@@ -326,6 +326,19 @@ questions:
                                               description: Info
                                             - value: debug
                                               description: Debug
+                                      - variable: CAPTCHA_SOLVER
+                                        label: Captcha Solver
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: none
+                                          enum:
+                                            - value: none
+                                              description: Aucun
+                                            - value: hcaptcha
+                                              description: hcaptcha
+                                            - value: recaptcha
+                                              description: recaptcha
                                       - variable: LOG_HTML
                                         label: Log HTML
                                         description: If true all HTML that passes through the proxy will be logged to the console in debug level.
